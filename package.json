@@ -1,0 +1,21 @@
+{
+  "name": "dec-employee-backend",
+  "version": "1.0.0",
+  "description": "Building a RESTful API for the employee management application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js localhost 8080"
+  },
+  "keywords": [],
+  "author": "Fitsum",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4"
+  }
+}
